@@ -1,0 +1,27 @@
+  <b:section class='above-post-widget1' id='above-post-widget1' maxwidgets='1' showaddelement='yes'>
+     <b:widget id='HTML121' locked='true' title='Chat Whatsapp' type='HTML' version='1'>
+       <b:widget-settings>
+         <b:widget-setting name='content'>&lt;div id=&quot;whatsapp&quot;&gt;
+ &lt;input class=&quot;tujuan&quot; type=&quot;hidden&quot; value=&quot;083834426998&quot; /&gt; &lt;!-- No. WhatsApp --&gt;
+ &lt;label&gt;
+  &lt;input class=&quot;nama&quot; type=&quot;text&quot; placeholder=&quot;Nama Lengkap..&quot; /&gt;
+ &lt;/label&gt;
+ &lt;label&gt;
+  &lt;input class=&quot;email&quot; type=&quot;email&quot; placeholder=&quot;Alamat E-mail..&quot; /&gt;
+ &lt;/label&gt;
+ &lt;label&gt;
+  &lt;textarea class=&quot;pesan&quot; placeholder=&quot;Pesan..&quot;&gt;&lt;/textarea&gt;
+ &lt;/label&gt;
+ &lt;a class=&quot;submit&quot;&gt;Kirim&lt;/a&gt;
+&lt;/div&gt;</b:widget-setting>
+       </b:widget-settings>
+       <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <div class='widget-content'>
+  <i class='whatsapp-btn'>WhatsApp</i>
+    <data:content/>
+  </div>
+  <b:include name='quickedit'/>
+</b:includable>
+     </b:widget>
+   </b:section>
